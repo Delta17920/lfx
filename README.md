@@ -29,7 +29,7 @@ Compressed Sparse Row (CSR) is a standard format for storing sparse matrices eff
 
 For row `i`, its non-zeros live at `values[row_ptrs[i] .. row_ptrs[i+1] - 1]`.
 
-**Example** — a 3×4 matrix:
+**Example** - a 3×4 matrix:
 
 ```
 A = [ 5  0  0  2 ]
